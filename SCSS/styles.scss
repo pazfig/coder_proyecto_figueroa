@@ -2,3 +2,23 @@ $vista:mobile;
 $h1Desktop: 3rem;
 $h1Mobile: 1.2rem;
 
+.column {
+    width: 100%;
+}
+
+@media ( min-width: 600px
+) {
+    .column { width: 50% ;
+}
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+body { 
+    display: inline-block;
+    overflow-x: hidden;
+
+}
